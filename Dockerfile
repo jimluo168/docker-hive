@@ -1,4 +1,4 @@
-FROM registry.advanpro.cn/hadoop-base:2.0.0-hadoop2.7.7-java8
+FROM registry.advanpro.cn/hadoop-base:1.0.0-hadoop2.7.7-java8
 MAINTAINER luojimeng <luojimeng@advanpro.hk>
 
 ENV HIVE_VERSION 2.3.3
