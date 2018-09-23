@@ -17,7 +17,7 @@ To deploy in Docker Swarm:
     docker stack deploy -c docker-compose.yml hive
 ```
 
-To run a PrestoDB 0.181 with Hive connector:
+To run a PrestoDB 0.211 with Hive connector:
 
 ```
   docker-compose up -d presto-coordinator
