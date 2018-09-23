@@ -2,7 +2,7 @@ version: "3"
 
 services:
   namenode:
-    image: registry.advanpro.cn/hadoop-namenode:2.0.0-hadoop2.7.7-java8
+    image: registry.advanpro.cn/hadoop-namenode:1.0.0-hadoop2.7.7-java8
     volumes:
       - namenode:/hadoop/dfs/name
     environment:
@@ -12,7 +12,7 @@ services:
     ports:
       - 50070:50070
   datanode:
-    image: registry.advanpro.cn/hadoop-datanode:2.0.0-hadoop2.7.7-java8
+    image: registry.advanpro.cn/hadoop-datanode:1.0.0-hadoop2.7.7-java8
     volumes:
       - datanode:/hadoop/dfs/data
     env_file:
